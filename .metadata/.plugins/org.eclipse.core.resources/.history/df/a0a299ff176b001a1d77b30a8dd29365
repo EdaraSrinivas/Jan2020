@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="x" value="23"></parameter>
+  <parameter name="y" value="45"></parameter>
+    <classes>
+   
+      <class name="testng.Parameters1"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Test">
+  <parameter name="x" value="67"></parameter>
+  <parameter name="y" value="22"></parameter>
+    <classes>
+   
+      <class name="testng.Parameters1"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Test">
+  <parameter name="x" value="12"></parameter>
+  <parameter name="y" value="87"></parameter>
+    <classes>
+   
+      <class name="testng.Parameters1"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

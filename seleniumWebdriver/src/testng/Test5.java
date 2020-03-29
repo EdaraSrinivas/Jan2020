@@ -1,0 +1,26 @@
+package testng;
+
+import org.testng.annotations.Test;
+
+public class Test5 {
+	
+  @Test(groups= {"abc"})
+  public void login() {
+	  System.out.println("login");
+  }
+  @Test(groups= {"abc"})
+  public void registration() {
+	  System.out.println("registration");
+  }
+  @Test
+  public void logout() {
+	  System.out.println("logout");
+  }
+  @Test(dependsOnGroups= {"abc"})
+  public void inbox() {
+	  System.out.println("inbox");
+  }
+
+  
+    
+}

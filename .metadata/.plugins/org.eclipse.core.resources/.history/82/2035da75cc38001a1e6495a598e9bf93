@@ -1,0 +1,28 @@
+package pack1;
+
+public class ObjectDemo {
+
+	int a = 56;
+	
+	public static void main(String[] args) {
+
+		// variable - reference of data
+		int a = 45;	
+		
+		// Object - Reference of class
+		ObjectDemo demo = new ObjectDemo(23, 12.2);
+		
+		System.out.println(a);
+		
+	}
+	
+	public ObjectDemo(int b, double d) {
+		System.out.println(b);
+		System.out.println(d);
+	}
+	
+	public void m1() {
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package pack1;
+
+public class ObjectDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		// variable - reference of data
+		int a = 45;
+		
+		// Object - reference of class
+		
+		ObjectDemo obj = new ObjectDemo(); // --  Constructor
+		
+		
+	}
+
+}

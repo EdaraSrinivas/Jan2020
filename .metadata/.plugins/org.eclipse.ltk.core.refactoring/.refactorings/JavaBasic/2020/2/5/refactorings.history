@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Exception1.java&apos; to &apos;pack1.Exception1.java&apos;&#x0D;&#x0A;- Original project: &apos;JavaBasic&apos;&#x0D;&#x0A;- Destination element: &apos;pack1.Exception1.java&apos;&#x0D;&#x0A;- Original element: &apos;pack1.Exception1.java&apos;" description="Copy compilation unit" destination="/src&lt;pack1{Exception1.java" element1="/src&lt;pack1{Exception1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1580523090966" units="1" version="1.0"/>
+</session>

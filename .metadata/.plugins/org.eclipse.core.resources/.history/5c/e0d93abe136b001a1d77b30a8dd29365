@@ -1,0 +1,21 @@
+package testng;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	public void m1(int a) {
+		System.out.println(a);
+	}
+	public void m2(int a, String b) {
+		System.out.println(a+","+b);
+	}
+	public void m3(char c) {
+		System.out.println(c);
+	}
+
+}
